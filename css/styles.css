@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --btn-color: rgba(251, 168, 31, 1);
+  --btn-color-focus: rgba(251, 168, 31, 0.5);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.svg-shape {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+  left: -759px;
+  transform: scaleX(5.5) scaleY(4);
+}
+
+.vh-60 {
+  height: 60vh !important;
+}
+
+.btn-second {
+  background-color: var(--btn-color) !important;
+  border-color: var(--btn-color) !important;
+}
+
+.btn-second:focus {
+  box-shadow: 0 0 0 0.25rem var(--btn-color-focus) !important;
+}
+
+#Home,
+#Generate,
+#About {
+  transform-origin: top;
+  transition: 0s;
+}
+
+#Home,
+#Generate,
+#About {
+  transform: scaleY(0);
+  height: 0px;
+}
+
+#Home:target,
+#Generate:target,
+#About:target {
+  transform: scaleY(1);
+  height: auto;
+  transition: transform 0.4s;
+}
+
+#Generate:target ~ #Home,
+#About:target ~ #Home {
+  transform: scaleY(0);
+  height: 0px;
+}
+
+#qrcode {
+  height: 300px;
+  width: 300px;
+}
+
+.generate-text-input {
+  height: 40px;
+}
+
+@media screen and (orientation: portrait) {
+    .svg-shape{
+    left: 0px;
+    top: -160px;
+    transform: scaleX(5.5) scaleY(4) rotate(70deg);
+    }
+    
+}
