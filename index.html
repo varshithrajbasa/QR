@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="theme-color" content="#212529" >
+    <meta name="msapplication-navbutton-color" content="#212529">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#212529">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code Generator</title>
@@ -78,7 +81,7 @@
         <div class="col align-self-center">
           <div class="row m-auto mt-5 mb-5" id="qrcode"></div>
           <div class="row ">
-            <div class="input-group mb-3 w-75 generate-text-input mx-auto">
+            <div class="input-group mb-3 w-sm-100 w-md-75 generate-text-input mx-auto">
               <input type="text" class="form-control" id="qrCodeData" placeholder="Enter text or url" aria-label="text or url" aria-describedby="button-generate" required>
               <button class="btn btn-second" type="button" id="button-generate" onclick="generateQrCode()">Generate</button>
             </div>
