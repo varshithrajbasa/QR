@@ -2,6 +2,10 @@
 
 An application used to create QR Code, built with React, JavaScript, and CSS.
 
+## Screenshot(s)
+
+    
+
 ## Installation and Setup Instructions
 
 #### Example:  
