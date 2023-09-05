@@ -18,10 +18,10 @@
     "react-qr-code": "^2.0.12",
     "react-router-dom": "^6.15.0"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
   "keywords": [
     "qr-code"
   ],
   "author": "Varshith Raj Basa",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
