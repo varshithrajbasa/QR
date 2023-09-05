@@ -4,7 +4,7 @@ An application used to create QR Code, built with React, JavaScript, and CSS.
 
 ## Screenshot(s)
 
-    
+   ![Sample](https://github.com/varshithrajbasa/QR/blob/main/sample1.png?raw=true) 
 
 ## Installation and Setup Instructions
 
