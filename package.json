@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-qr-code": "^2.0.12",
+    "react-router-dom": "^6.15.0"
+  },
+  "name": "qr-code",
+  "version": "1.0.0",
+  "description": "QR Code Generator Web Application",
+  "scripts": {
+    "test": "jest index.js",
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "qr-code"
+  ],
+  "author": "Varshith Raj Basa",
+  "license": "ISC"
+}

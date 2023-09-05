@@ -20,6 +20,7 @@ html {
   width: 100vw;
   position: fixed;
   z-index: -1;
+  top: 115px;
   left: -759px;
   transform: scaleX(5.5) scaleY(4);
 }
@@ -37,33 +38,6 @@ html {
   box-shadow: 0 0 0 0.25rem var(--btn-color-focus) !important;
 }
 
-#Home,
-#Generate,
-#About {
-  transform-origin: top;
-  transition: 0s;
-}
-
-#Home,
-#Generate,
-#About {
-  transform: scaleY(0);
-  height: 0px;
-}
-
-#Home:target,
-#Generate:target,
-#About:target {
-  transform: scaleY(1);
-  height: auto;
-  transition: transform 0.4s;
-}
-
-#Generate:target ~ #Home,
-#About:target ~ #Home {
-  transform: scaleY(0);
-  height: 0px;
-}
 
 #qrcode {
   height: 300px;
@@ -72,6 +46,10 @@ html {
 
 .generate-text-input {
   height: 40px;
+}
+
+.about{
+  margin-top: 10vh;
 }
 
 @media screen and (orientation: portrait) {
