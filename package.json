@@ -1,5 +1,14 @@
 {
+  "name": "qr-code",
+  "version": "1.0.0",
+  "description": "QR Code Generator Web Application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
+    "htmlnano": "^2.0.3",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
@@ -9,14 +18,7 @@
     "react-qr-code": "^2.0.12",
     "react-router-dom": "^6.15.0"
   },
-  "name": "qr-code",
-  "version": "1.0.0",
-  "description": "QR Code Generator Web Application",
-  "scripts": {
-    "test": "jest index.js",
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
-  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "keywords": [
     "qr-code"
   ],
