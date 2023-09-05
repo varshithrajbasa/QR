@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const routes = [
-  { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
+  { name: "Home", path: "./" },
+  { name: "About", path: "./about" },
 ];
 
 const Header = () => {

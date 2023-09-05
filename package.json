@@ -4,7 +4,7 @@
   "description": "QR Code Generator Web Application",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url ./",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -19,12 +19,12 @@ const App = () => {
 };
 const appRoute = createBrowserRouter([
   {
-    path: "/",
+    path: "/QR/",
     element: <App />,
     errorElement: <Error />,
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/about", element: <About /> },
+      { path: "", element: <Home /> },
+      { path: "about", element: <About /> },
     ],
   },
 ]);
