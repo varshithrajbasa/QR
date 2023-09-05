@@ -14,7 +14,8 @@
   "description": "QR Code Generator Web Application",
   "scripts": {
     "test": "jest index.js",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "qr-code"
